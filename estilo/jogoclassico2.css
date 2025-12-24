@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 678px) and (max-width: 992px) {
+    
+
+ span#menu{
+    display:none;
+ }
+
+ menu{
+    display: inline-block;
+ }
+}
+
+
+@media screen and (min-width: 992px ) and (max-width: 1200px) {
+    span#menu{
+        display: none;
+    }
+
+    menu{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1444px) {
+    
+
+    span#menu{
+        display: none;
+    }
+
+
+    menu{
+        display: inline-block;
+    }
+}
