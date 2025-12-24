@@ -6,6 +6,11 @@
     margin: 0px;
 }
 
+
+html{
+    padding: 0px;
+    margin: 0px;
+}
 :root{
 
     --font-1:()
@@ -63,6 +68,18 @@ main{
    
 }
 
+aside.rodape{
+    background-color: wheat;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside>section{
+    flex: auto;
+}
+
 
 footer{
     height: 250px;
@@ -70,3 +87,5 @@ footer{
     margin: 0px;
     background-color: #7ACCEB;
 }
+
+
