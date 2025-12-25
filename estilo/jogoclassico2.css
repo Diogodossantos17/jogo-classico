@@ -8,9 +8,8 @@
     display:none;
  }
 
- menu{
-    display: flex;
-    flex-direction: row-reverse;
+ menu>ul>li.item{
+    display:inline-block;
  }
 }
 
@@ -20,9 +19,8 @@
         display: none;
     }
 
-    menu{
-        display:flex;
-        flex-direction: row-reverse;
+    menu>ul>li.item{
+        display:inline-block;
     }
 }
 
@@ -34,7 +32,7 @@
     }
 
 
-    menu{
+    menu>ul>li.item{
         display: inline-block;
     }
 

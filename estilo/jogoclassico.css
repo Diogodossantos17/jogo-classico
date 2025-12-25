@@ -39,21 +39,23 @@ header>menu>ul>li{
 
 header.container{
     display: flex;
-   
+   flex-direction: row-reverse;
 }
 
-menu{
+menu>ul>li.item{
     display: none;
 }
 
-li.item{
-   
+
+header.container>ul>li.item{
     padding: 4px;
     margin: 2px;
     border-radius: 2px;
-    display:inline-block;
-    flex-direction: row-reverse;
     flex: auto;
+}
+
+li.item{
+    display: inline-block;
 }
 
 li>a{
