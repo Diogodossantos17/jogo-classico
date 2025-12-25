@@ -2,17 +2,22 @@
 
 function mostra(){
 
+    const itens = window.document.getElementById('itens') 
 
-    var itens = window.document.getElementById('itens')
+   itens.style.display = 'inline-block'
 
-    itens.style.display = 'inline-block' 
 
-    if (itens == 'inline-block'){
+   if (itens == 'inline-block'){
+    
+    itens = 'none'
 
-        itens.style.display = 'none'
-    } else{
+   } else{
 
-        itens == 'inline-block'
-    }
+    itens.style.display = 'inline-block'
+   }
 
+
+  
 }
+
+
