@@ -55,7 +55,7 @@ header.container>ul>li.item{
 }
 
 li.item{
-    display: inline-block;
+    display: none;
 }
 
 li>a{
