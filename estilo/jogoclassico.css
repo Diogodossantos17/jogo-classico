@@ -27,8 +27,14 @@ body{
 }
 
 header{
-    margin-top: 1px;
-    border-radius: 5px;
+    background-image: url('../imagens/football\ boot.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: sticky;
+    top: -1px;
+    margin-top: 0px;
+    border-radius: 1px;
     padding: 40px;
     background-color: var(--cor-secundária);
 }
