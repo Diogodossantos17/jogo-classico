@@ -3,6 +3,11 @@
 
 @media screen and (min-width: 678px) and (max-width: 992px) {
     
+    header.container{
+    display: flex;
+   flex-direction: row-reverse;
+}
+
 
  span#menu{
     display:none;
@@ -15,6 +20,14 @@
 
 
 @media screen and (min-width: 992px ) and (max-width: 1200px) {
+
+
+    header.container{
+    display: flex;
+   flex-direction: row-reverse;
+
+}
+
     span#menu{
         display: none;
     }
@@ -26,6 +39,12 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1444px) {
     
+
+ header.container{
+ display: flex;
+flex-direction: row-reverse;
+}
+
 
     span#menu{
         display: none;

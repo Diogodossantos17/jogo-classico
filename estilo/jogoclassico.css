@@ -43,7 +43,11 @@ header.container{
 }
 
 menu>ul>li.item{
-    display: none;
+    display:none;
+}
+
+span#menu{
+    display: inline-block;
 }
 
 
@@ -54,9 +58,7 @@ header.container>ul>li.item{
     flex: auto;
 }
 
-li.item{
-    display: none;
-}
+
 
 li>a{
      color: red;
@@ -71,9 +73,9 @@ span#menu{
     border-radius: 10px;
     background-color: white;
     padding: 10px;
-    display: flex;
+   /* display: flex;
     flex-direction: row-reverse;
-    display:inline-block;
+    display:inline-block;*/
     cursor: pointer;
 }
 
