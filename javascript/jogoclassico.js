@@ -1,9 +1,10 @@
 
 function mostra(){
 
-var itens = window.document.getElementById('itens')
+var menu = window.document.getElementById('itens')
 
-itens.style.display = 'inline-block'
+
+menu.style.display = 'inline-block'
 
 }
 

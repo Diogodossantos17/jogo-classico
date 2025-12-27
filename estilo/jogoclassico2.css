@@ -40,6 +40,13 @@
 @media screen and (min-width: 1200px) and (max-width: 1444px) {
     
 
+
+header{
+    background-image:  url(../imagens/Football\ ball.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom bottom;
+}
  header.container{
  display: flex;
 flex-direction: row-reverse;

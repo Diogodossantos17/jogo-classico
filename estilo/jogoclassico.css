@@ -27,8 +27,8 @@ body{
 }
 
 header{
-    background-image: url('../imagens/football\ boot.jpg');
-    background-position: center bottom;
+    background-image: url(/imagens/football\ boot\ for\ mobile.jpg);
+    background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     position: sticky;
@@ -49,18 +49,21 @@ header.container{
    flex-direction: row-reverse;
 }
 
-menu>ul>li.item{
-    display:none;
-}
 
-span#menu{
+li.item{
     display: inline-block;
 }
+
+menu>ul>li.item{
+    display: none;
+}
+
 
 
 header.container>ul>li.item{
     padding: 4px;
     margin: 2px;
+    display: inline-block;
     border-radius: 2px;
     flex: auto;
 }
@@ -80,19 +83,22 @@ span#menu{
     border-radius: 10px;
     background-color: white;
     padding: 10px;
+    display: inline-block;
    /* display: flex;
     flex-direction: row-reverse;
     display:inline-block;*/
     cursor: pointer;
 }
 
-main{
+main.conteiner{
     background-color: white;
     box-shadow:  2px black;
     border-radius: 10px;
     height: 300px;
     padding: 30px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
    
 }
 
@@ -100,8 +106,8 @@ aside.rodape{
     background-color: wheat;
     padding: 20px;
     margin: 20px;
-    display: flex;
-    flex-direction: column;
+    flex: auto;
+   
 }
 
 aside>section{
